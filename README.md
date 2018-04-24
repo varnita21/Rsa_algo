@@ -12,7 +12,7 @@ void main() {
 	int e,p,q,n,l,i,j,gcd,ln;
 	char text[20];
 	char cipher[20];
-	printf("Enter the text\t");
+	printf("Enter the String to be encrypted:\t");
 	scanf("%s",&text);
 	ln= strlen(text);
 	printf("Enter the two prime numbers p and q:\t");
@@ -26,12 +26,10 @@ void main() {
 		cipher[i] = (m^e)%n;
 		printf("%d",cipher[i]);
 	}
-	printf("The cipher text:\t");
+	printf("The cipher resulted text :\t");
 	for(i=0;i<ln;i++) {
 		printf("%c",cipher[i]);
 	}
-	for(i=0;i<ln;i++) {
-		int v = (cipher[i]^)
 
 	getch();
 
