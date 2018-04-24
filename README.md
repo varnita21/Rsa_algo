@@ -26,9 +26,9 @@ void main() {
 		cipher[i] = (m^e)%n;
 		printf("%d",cipher[i]);
 	}
-	printf("The cipher resulted text :\t");
+	printf("The cipher resulted is :\t");
 	for(i=0;i<ln;i++) {
-		printf("%c",cipher[i]);
+		printf("%d",cipher[i]);
 	}
 
 	getch();
