@@ -1,5 +1,5 @@
 # Rsa_algo
-Rsa algorithm in cryptography network security 
+Rsa algorithm in cryptography network security takes a string as an input
 #include<stdio.h>
 #include<conio.h>
 #include<string.h>
